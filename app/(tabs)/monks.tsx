@@ -112,6 +112,7 @@ export default function MonksScreen() {
         horizontal
         showsHorizontalScrollIndicator={false}
         className="mb-3"
+        style={{ flexGrow: 0 }}
         contentContainerStyle={{ paddingHorizontal: 12, alignItems: 'center' }}
       >
         {FILTERS.map((filter) => {
